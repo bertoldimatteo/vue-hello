@@ -2,8 +2,14 @@ const app = new Vue(
     {
         el: '#root',
         data: {
-            message: "Finalmente qualcosa di figo con JS!"
-        }
+            message: "Finalmente qualcosa di figo con JS!",
+            classe: 'model',
+        },
+        // method: {
+        //     show() {
+        //         document.getElementById("#test").style.display = "block";
+        //     }
+        // }
     }
 );
 
